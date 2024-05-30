@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Tanatswa Rusinga</title>
+  <link rel="stylesheet" href="./contact.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container">
+                <a href="#" class="logo">Tanatswa Russel Rusinga <b>Front-End Developer</b></a>
+                <nav>
+                    <ul class="links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="info.html">Info</a></li>
+                        <li id='getstarted'><a href="get-started.html">Get Started</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header>
+      
+        <div class="content">
+            <div class="form-container">
+                <form action="action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="poland">Poland</option>
+                        <option value="zimbabwe">Zimbabwe</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="https://assets-global.website-files.com/60f5b6738a95b57fe76faba5/6514028b9cb7981142a97ce0_Front-end%20Developer%20vs.%20Front-end%20Engineer_%20Which%20Is%20Best%20for%20you_.png" alt="Developer Image">
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer">
+                <div class="row">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li><a href="#" class="footer-link">Contact us</a></li>
+                        <li><a href="#" class="footer-link">Our Services</a></li>
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                        <li><a href="#" class="footer-link">Career</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    HyperTech Copyright ©️ <span id="year"></span> HyperTech - All rights reserved 
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Script to set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
